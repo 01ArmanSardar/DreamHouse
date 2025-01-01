@@ -1,0 +1,68 @@
+[
+    {
+      "id": 1,
+      "estate_title": "Weekend chill",
+      "segment_name": "Vacation_Rental",
+      "image": "https://ibb.co.com/QcJCbmw",
+      "description": "A spacious family home with a modern design, located in a quiet neighborhood.",
+      "price": "$350,000",
+      "status": "sale",
+      "area": "2000 sq ft",
+      "location": "123 Oakwood Drive, Springfield",
+      "facilities": ["Living Room", "Swimming Pool", "Kitchen"],
+      "button_text": "View Property"
+    },
+    {
+      "id": 2,
+      "estate_title": "EnjoyPlace",
+      "segment_name": "SeniorLiving",
+      "image": "https://ibb.co.com/DtK9B58",
+      "description": "An elegant apartment in the city center with breathtaking views and modern amenities.",
+      "price": "$2,500/month",
+      "status": "rent",
+      "area": "1200 sq ft",
+      "location": "456 Downtown Avenue, Metropolis",
+      "facilities": ["Living Room", "Balcony", "Kitchen"],
+      "button_text": "View Property"
+    },
+    {
+      "id": 3,
+      "estate_title": "ReadIngVibes",
+      "segment_name": "StudentHousing",
+      "image": "https://ibb.co.com/gmLNX3c",
+      "description": "A charming cottage in the countryside, perfect for a weekend getaway.",
+      "price": "$150,000",
+      "status": "sale",
+      "area": "1000 sq ft",
+      "location": "789 Green Valley Road, Countryside",
+      "facilities": ["Living Room", "Garden", "Kitchen"],
+      "button_text": "View Property"
+    },
+    {
+      "id": 5,
+      "estate_title": "River Home",
+      "segment_name": "Apartment",
+      "image": "https://ibb.co.com/WKTnrnk",
+      "description": "A cozy home in the suburbs with a large backyard and modern features.",
+      "price": "$400,000",
+      "status": "sale",
+      "area": "2500 sq ft",
+      "location": "321 Maple Street, Suburbia",
+      "facilities": ["Living Room", "Garage", "Kitchen"],
+      "button_text": "View Property"
+    },
+    {
+      "id": 6,
+      "estate_title": "Suburban Home",
+      "segment_name": "TownHouse",
+      "image": "https://ibb.co.com/YTJyd0F",
+      "description": "A cozy home in the suburbs with a large backyard and modern features.",
+      "price": "$400,000",
+      "status": "sale",
+      "area": "2500 sq ft",
+      "location": "321 Maple Street, Suburbia",
+      "facilities": ["Living Room", "Garage", "Kitchen"],
+      "button_text": "View Property"
+    }
+  ]
+  
