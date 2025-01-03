@@ -43,7 +43,7 @@ const router = createBrowserRouter(
         {
           path: '/houses/:id',
           element: <PrivateRoute><HouseDetails></HouseDetails></PrivateRoute>,
-          loader: ({ params }) => fetch(`https://dreamhouseserverside-1.onrender.com/houses/${params.id}`),
+          loader: ({ params }) => fetch(`https://dreamhouseserverside-3.onrender.com/houses/${params.id}`),
         },
         {
           path:'/user',

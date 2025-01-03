@@ -15,7 +15,7 @@ const Home = () => {
     const [Houses,SetHouses]=useState([])
     useEffect(()=>{
 
-        fetch('https://dreamhouseserverside-1.onrender.com/houses/')
+        fetch('https://dreamhouseserverside-3.onrender.com/houses/')
         .then(res=>res.json())
         .then(data=>SetHouses(data))
     },[])
