@@ -60,52 +60,55 @@ const Home = () => {
                 {<Pricing></Pricing>}
             </section>
 
-            {/* <section className="">
-                <div className="place-items-center bg-purple-500">
-                    <div><h1 className=" text-6xl">Why Choose US</h1></div>
-                    <div className=" text-slate-50 stats stats-vertical lg:stats-horizontal shadow">
 
-
-                        <div className="stat">
-                            <div className="stat-title">Project Delivry</div>
-                            <div className="stat-value">2000</div>
-                            <div className="stat-desc">Jan 1st - dec 1st</div>
-                        </div>
-
-                        <div className="stat">
-                            <div className="stat-title">Staisfited Customer</div>
-                            <div className="stat-value">1500</div>
-                            <div className="stat-desc">↗︎ 400 (22%)</div>
-                        </div>
-
-                        <div className="stat">
-                            <div className="stat-title">Cheap Rates</div>
-                            <div className="stat-value">500</div>
-                            <div className="stat-desc">↘︎ 90 (14%)</div>
-                        </div>
-                    </div>
-                </div>
-            </section> */}
             <section className=" m-6 bg-gradient-to-r from-emerald-300 from-10% via-sky-500 via-30% to-emerald-600 to-90% ">
                 <div className="text-center"><h1 className="text-7xl font-serif">|Why Choose Us</h1></div>
                 <div className="grid grid-cols-3 p-14">
-                    <div className="grid-cols-1 "> 
-                        <GiHouseKeys  className="text-5xl"/>
+                    <div className="grid-cols-1 ">
+                        <GiHouseKeys className="text-5xl" />
                         <strong className="text-4xl">2000+</strong>
                         <h1 className="text-4xl font-serif">project delivery</h1></div>
                     <div className="grid-cols-1">
-                    <LiaUsersSolid className="text-5xl"/>
+                        <LiaUsersSolid className="text-5xl" />
                         <strong className="text-4xl">1500+</strong>
                         <h1 className="text-4xl font-serif">satsified customer</h1></div>
                     <div className="grid-cols-1">
-                    <FaSearchDollar className="text-5xl" />
+                        <FaSearchDollar className="text-5xl" />
                         <strong className="text-4xl">1000+</strong>
                         <h1 className="text-4xl font-serif">cheap rates</h1></div>
-                
-                    
+
+
                 </div>
             </section>
-            
+            <section className="ClintQuestion w-2/4 mx-auto  text-center items-center p-16">
+                <h1 className="text-4xl font-semibold pb-6">Our client Question</h1>
+
+                <div className="">
+                    <div className="collapse collapse-arrow bg-base-200">
+                        <input type="radio" name="my-accordion-2" defaultChecked />
+                        <div className="collapse-title text-xl font-medium">Are utilities included in the rent,</div>
+                        <div className="collapse-content">
+                            <p>yes</p>
+                        </div>
+                    </div>
+                    <div className="collapse collapse-arrow bg-base-200">
+                        <input type="radio" name="my-accordion-2" />
+                        <div className="collapse-title text-xl font-medium">Can I make repairs to the unit?</div>
+                        <div className="collapse-content">
+                            <p>Yes <strong>conditions apply</strong></p>
+                        </div>
+                    </div>
+                    <div className="collapse collapse-arrow bg-base-200">
+                        <input type="radio" name="my-accordion-2" />
+                        <div className="collapse-title text-xl font-medium">Is a guarantor or co-signer required?</div>
+                        <div className="collapse-content">
+                            <p>No</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
         </>
 
     );
