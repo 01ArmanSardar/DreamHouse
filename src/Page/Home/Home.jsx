@@ -8,6 +8,7 @@ import Pic6 from "../../../public/pexels-lina-3639540.jpg"
 import { GiHouseKeys } from "react-icons/gi";
 import { LiaUsersSolid } from "react-icons/lia";
 import { FaSearchDollar } from "react-icons/fa";
+
 import './Home.css'
 import { useEffect, useState } from "react";
 import Pricing from "./Pricing";
@@ -56,32 +57,32 @@ const Home = () => {
                 </div>
             </section>
 
-            <section>
+        <section className="">
                 {<Pricing></Pricing>}
             </section>
 
 
             <section className=" m-6 bg-gradient-to-r from-emerald-300 from-10% via-sky-500 via-30% to-emerald-600 to-90% ">
-                <div className="text-center"><h1 className="text-7xl font-serif">|Why Choose Us</h1></div>
+                <div className="text-center"><h1 className="lg:text-6xl sm:font-extrabold font-serif ">|Why Choose Us</h1></div>
                 <div className="grid grid-cols-3 p-14">
                     <div className="grid-cols-1 ">
-                        <GiHouseKeys className="text-5xl" />
-                        <strong className="text-4xl">2000+</strong>
-                        <h1 className="text-4xl font-serif">project delivery</h1></div>
+                        <GiHouseKeys className="lg:text-5xl md:text-4xl " />
+                        <strong className="lg:text-4xl md:text-3xl">2000+</strong>
+                        <h1 className="lg:text-4xl md:text-3xl font-serif">project delivery</h1></div>
                     <div className="grid-cols-1">
-                        <LiaUsersSolid className="text-5xl" />
-                        <strong className="text-4xl">1500+</strong>
-                        <h1 className="text-4xl font-serif">satsified customer</h1></div>
+                        <LiaUsersSolid className="lg:text-5xl md:text-4xl" />
+                        <strong className="lg:text-4xl md:text-3xl">1500+</strong>
+                        <h1 className="lg:text-4xl md:text-3xl font-serif">satsified customer</h1></div>
                     <div className="grid-cols-1">
-                        <FaSearchDollar className="text-5xl" />
-                        <strong className="text-4xl">1000+</strong>
-                        <h1 className="text-4xl font-serif">cheap rates</h1></div>
+                        <FaSearchDollar className="lg:text-5xl md:text-4xl" />
+                        <strong className="lg:text-4xl md:text-3xl">1000+</strong>
+                        <h1 className="lg:text-4xl md:text-3xl font-serif">cheap rates</h1></div>
 
 
                 </div>
             </section>
-            <section className="ClintQuestion w-2/4 mx-auto  text-center items-center p-16">
-                <h1 className="text-4xl font-semibold pb-6">Our client Question</h1>
+            <section className="ClintQuestion lg:w-2/4 mx-auto  text-center items-center p-16">
+                <h1 className="text-4xl font-semibold pb-6">Our client Question </h1>
 
                 <div className="">
                     <div className="collapse collapse-arrow bg-base-200">
